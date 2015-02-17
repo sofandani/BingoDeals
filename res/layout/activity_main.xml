@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bck_img"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.softzone.bingodeals.MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="8"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnLiveDeals"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="Live Deals!" />
+
+    <Button
+        android:id="@+id/btnNearbySites"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Deals Around" />
+
+    <Button
+        android:id="@+id/btnViewSites"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="Island wide Deals" />
+
+</LinearLayout>
